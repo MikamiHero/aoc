@@ -57,8 +57,6 @@ int main(int argc, const char *argv[]) {
                     // of the string. That is, 'eightwothree' might match on 'two'
                     // first, which isn't what we want.
                     if (head != NULL && position == 0) {
-                  //      printf("Found '%s' in %s", NUMBERS[k], buf);
-                   //     printf("Position: %li\n", head - (buf + j));
                         // Checking if it's the first digit or not
                         if (!firstDigitFound) {
                             // NUMBERS[0] = 'one', NUMBERS[1] = 'two',
